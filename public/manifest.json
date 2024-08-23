@@ -1,0 +1,73 @@
+{
+    "name": "Test App",
+    "short_name": "TA",
+    "description": "Test description",
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "images/icons-16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "images/icons-48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "images/icons-64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "images/icons-72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "images/icons-96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "images/icons-128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "images/icons-144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "images/icons-152.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "images/icons-180.png",
+            "type": "image/png",
+            "sizes": "180x180"
+        },
+        {
+            "src": "images/icons-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "images/icons-256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "images/icons-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
