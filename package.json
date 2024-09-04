@@ -7,17 +7,21 @@
     "build": "next build",
     "build:production": "cp .env.production .env.local && next build",
     "build:staging": "cp .env.staging .env.local && next build",
-    "start": "npx serve@latest out",
+    "start": "next start",
     "format": "prettier --write .",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vapid": "web-push generate-vapid-keys"
   },
   "dependencies": {
     "@emotion/cache": "^11.13.1",
     "@emotion/react": "^11.13.3",
     "@emotion/server": "^11.11.0",
     "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.0.0",
     "@mui/material": "^5.16.7",
     "@mui/material-nextjs": "^5.16.6",
+    "@types/workbox-window": "^5.0.0",
+    "@wagmi/chains": "^1.8.0",
     "autoprefixer": "^10.4.20",
     "clsx": "^2.1.1",
     "i18next": "^23.14.0",
@@ -28,9 +32,15 @@
     "react": "^18",
     "react-dom": "^18",
     "react-i18next": "^15.0.1",
-    "tailwind-merge": "^2.5.2"
+    "tailwind-merge": "^2.5.2",
+    "unstated-next": "^1.1.0",
+    "viem": "1.19.13",
+    "wagmi": "1.4.5",
+    "web-push": "^3.6.7",
+    "zustand": "^4.5.5"
   },
   "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

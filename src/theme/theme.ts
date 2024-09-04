@@ -8,7 +8,15 @@ const theme = createTheme({
     secondary: {
       main: "#052b48",
     },
+    info: {
+      main: "#ffffff",
+    },
   },
+  typography: {
+    button: {
+      textTransform: "none",
+    }
+  }
 })
 
 export default theme
