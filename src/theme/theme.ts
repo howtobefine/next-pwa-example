@@ -15,8 +15,8 @@ const theme = createTheme({
   typography: {
     button: {
       textTransform: "none",
-    }
-  }
+    },
+  },
 })
 
 export default theme

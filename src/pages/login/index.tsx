@@ -26,7 +26,7 @@ const Login = () => {
           <Button
             variant="outlined"
             color="info"
-            className="self-center rounded-full w-full max-w-[328px]"
+            className="w-full max-w-[328px] self-center rounded-full"
             onClick={handleLogin}
           >
             <GoogleIcon className="mr-2" width="32px" height="32px" />
